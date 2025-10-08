@@ -16,7 +16,7 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
   final UploadBlog _uploadBlog;
   final GetAllBlogs _getAllBlogs;
 
-  BlogBloc({required UploadBlog uploadBlog, required GetAllBlogs getAllBlogs})
+  BlogBloc({required UploadBlog uploadBlog, required GetAllBlogs getAllBlogs,})
       : _uploadBlog = uploadBlog,
         _getAllBlogs = getAllBlogs,
         super(BlogInitial()) {
@@ -25,10 +25,8 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
     on<BlogFetchAllBlogs>(_onFetchAllBlogs);
   }
 
-  void _onBlogUpload(
-    BlogUpload event,
-    Emitter<BlogState> emit,
-  ) async {
+  void _onBlogUpload(BlogUpload event,
+      Emitter<BlogState> emit,) async {
     final res = await _uploadBlog(UploadBlogParams(
       posterId: event.posterId,
       title: event.title,
@@ -38,20 +36,18 @@ class BlogBloc extends Bloc<BlogEvent, BlogState> {
     ));
 
     res.fold(
-      (l) => emit(BlogFailure(l.message)),
-      (r) => emit(BlogUploadSuccess()),
+          (l) => emit(BlogFailure(l.message)),
+          (r) => emit(BlogUploadSuccess()),
     );
   }
 
-  void _onFetchAllBlogs(
-    BlogFetchAllBlogs event,
-    Emitter<BlogState> emit,
-  ) async {
+  void _onFetchAllBlogs(BlogFetchAllBlogs event,
+      Emitter<BlogState> emit,) async {
     final res = await _getAllBlogs(NoParams());
 
     res.fold(
-      (l) => emit(BlogFailure(l.message)),
-      (r) => emit(BlogsDisplaySuccess(r)),
+          (l) => emit(BlogFailure(l.message)),
+          (r) => emit(BlogsDisplaySuccess(r)),
     );
   }
 }

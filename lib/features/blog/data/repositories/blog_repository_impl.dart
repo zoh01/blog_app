@@ -17,7 +17,12 @@ class BlogRepositoryImpl implements BlogRepository {
   final BlogRemoteDataSource blogRemoteDataSource;
   final BlogLocalDataSource blogLocalDataSource;
   final ConnectionChecker connectionChecker;
-  BlogRepositoryImpl(this.blogRemoteDataSource, this.blogLocalDataSource, this.connectionChecker);
+
+  BlogRepositoryImpl(
+    this.blogRemoteDataSource,
+    this.blogLocalDataSource,
+    this.connectionChecker,
+  );
 
   @override
   Future<Either<Failure, Blog>> uploadBlog({
@@ -28,7 +33,7 @@ class BlogRepositoryImpl implements BlogRepository {
     required List<String> topics,
   }) async {
     try {
-      if(!await (connectionChecker.isConnected)) {
+      if (!await (connectionChecker.isConnected)) {
         return left(Failure(Konstants.noConnectionErrorMessage));
       }
       BlogModel blogModel = BlogModel(
@@ -44,7 +49,9 @@ class BlogRepositoryImpl implements BlogRepository {
         image: image,
         blog: blogModel,
       );
-      blogModel = blogModel.copyWith(imageUrl: imageUrl,);
+      blogModel = blogModel.copyWith(
+        imageUrl: imageUrl,
+      );
       final uploadedBlog = await blogRemoteDataSource.uploadBlog(blogModel);
       return right(uploadedBlog);
     } on ServerException catch (e) {
@@ -53,10 +60,9 @@ class BlogRepositoryImpl implements BlogRepository {
   }
 
   @override
-  Future<Either<Failure, List<Blog>>> getAllBlogs() async{
-
+  Future<Either<Failure, List<Blog>>> getAllBlogs() async {
     try {
-      if(!await (connectionChecker.isConnected)) {
+      if (!await (connectionChecker.isConnected)) {
         final blogs = blogLocalDataSource.loadBlogs();
         return right(blogs);
       }

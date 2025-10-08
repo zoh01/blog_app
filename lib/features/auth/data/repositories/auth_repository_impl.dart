@@ -22,7 +22,6 @@ class AuthRepositoryImpl implements AuthRepository {
         if(session == null) {
           return left(Failure('User not logged in!'));
         }
-
         return right(UserModel(email: session.user.email ?? '', name: '', id: session.user.id));
       }
       final user = await remoteDataSource.getCurrentUSerData();
