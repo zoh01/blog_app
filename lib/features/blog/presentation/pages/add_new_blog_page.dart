@@ -118,7 +118,7 @@ class _AddNewBlogPageState extends State<AddNewBlogPage> {
                               borderType: BorderType.RRect,
                               strokeCap: StrokeCap.round,
                               child: const SizedBox(
-                                height: 150,
+                                height: 155,
                                 width: double.infinity,
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -126,7 +126,7 @@ class _AddNewBlogPageState extends State<AddNewBlogPage> {
                                     Icon(Icons.folder_open, size: 36),
                                     SizedBox(height: 10),
                                     Text('Select your image',
-                                        style: TextStyle(fontSize: 18)),
+                                        style: TextStyle(fontSize: 12)),
                                   ],
                                 ),
                               ),
@@ -170,14 +170,14 @@ class _AddNewBlogPageState extends State<AddNewBlogPage> {
                       ),
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: 22,
                     ),
                     BlogEditor(
                       controller: titleController,
                       labelText: 'Blog Title',
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: 22,
                     ),
                     BlogEditor(
                       controller: contentController,

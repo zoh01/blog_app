@@ -24,14 +24,14 @@ class BlogViewerPage extends StatelessWidget {
                   style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(
-                  height: 20,
+                  height: 18,
                 ),
                 Text(
                   'Written by : ${blog.posterName}',
                   style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                 ),
                 const SizedBox(
-                  height: 7,
+                  height: 10,
                 ),
                 Text('Date : ${formatDateBydMMMYYYY(blog.updatedAt)}',
                     style: const TextStyle(

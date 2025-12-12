@@ -72,10 +72,10 @@ class _SignUpTextFormState extends State<SignUpTextForm> {
                     labelStyle: TextStyle(color: Colors.black),
                     focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.black),
-                        borderRadius: BorderRadius.all(Radius.circular(15))),
+                        borderRadius: BorderRadius.all(Radius.circular(16))),
                     border: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.black),
-                        borderRadius: BorderRadius.all(Radius.circular(15)))),
+                        borderRadius: BorderRadius.all(Radius.circular(16)))),
               ),
               const SizedBox(
                 height: 15,
