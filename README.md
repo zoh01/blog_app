@@ -23,3 +23,7 @@
 ---
 
 ## 🔧 Tools and Libraries Used
+
+---
+
+## ⚙️ How It Works
