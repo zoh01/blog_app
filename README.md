@@ -11,6 +11,12 @@ Blog App is a cross-platform blogging application that brings the power of conte
 In today's digital age, content creation has become more important than ever. However, many blogging platforms are either too complex for beginners or lack the features professionals need.
 
 ### The Challenge:
+**For Writers**
+- Existing blogging platforms have steep learning curves
+- Mobile blogging apps lack rich formatting capabilities
+- Difficult to manage multiple articles efficiently
+- Limited customization and branding options
+- Poor offline writing experience
 
 ### The Solution: 
 
