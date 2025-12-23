@@ -25,6 +25,9 @@ In today's digital age, content creation has become more important than ever. Ho
 - Poor mobile reading experience
 
 ### The Solution: 
+**For Writers**
+- ✍️ Intuitive Editor - Rich text editing with markdown support
+- 📱 Mobile-First - Write and publish from anywhere
 
 ---
 
