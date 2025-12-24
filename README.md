@@ -88,8 +88,8 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 1. Core Technologies
    ```bash
    # Flutter & Dart
-    flutter: SDK ^3.0.0
-    dart: SDK ^3.0.0
+   flutter: SDK ^3.0.0
+   dart: SDK ^3.0.0
 
 2. State Management
    ```bash
@@ -98,6 +98,14 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
    equatable: ^latest                 # Value equality
 
 3. Backend & Database
+   ```bash
+   # Firebase Services
+   firebase_core: ^latest             # Firebase core
+   firebase_auth: ^latest             # Authentication
+   cloud_firestore: ^latest           # NoSQL database
+   firebase_storage: ^latest          # File storage
+   firebase_messaging: ^latest        # Push notifications
+   firebase_analytics: ^latest        # Analytics
 
 ---
 
