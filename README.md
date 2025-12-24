@@ -99,13 +99,12 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 
 3. Backend & Database
    ```bash
-   # Firebase Services
-   firebase_core: ^latest             # Firebase core
-   firebase_auth: ^latest             # Authentication
-   cloud_firestore: ^latest           # NoSQL database
-   firebase_storage: ^latest          # File storage
-   firebase_messaging: ^latest        # Push notifications
-   firebase_analytics: ^latest        # Analytics
+   # Supabase
+   supabase_flutter: ^latest          # Supabase client for Flutter
+   postgrest: ^latest                 # PostgreSQL REST client
+   gotrue: ^latest                    # Supabase authentication
+   storage_client: ^latest            # Supabase storage client
+   realtime_client: ^latest           # Real-time subscriptions
 
 ---
 
