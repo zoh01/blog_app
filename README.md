@@ -38,8 +38,12 @@ In today's digital age, content creation has become more important than ever. Ho
 
 ### The Solution: 
 **For Writers**
-- ✍️ Intuitive Editor - Rich text editing with markdown support
-- 📱 Mobile-First - Write and publish from anywhere
+- **✍️ Intuitive Editor** - Rich text editing with markdown support
+- **📱 Mobile-First** - Write and publish from anywhere
+- **💾 Auto-Save** - Never lose your work with automatic drafts
+- **🖼️ Media Management** - Easy image and video uploads
+- **📊 Analytics** - Track your article performance
+- **🎨 Customization** - Personalize your author profile
 
 ---
 
