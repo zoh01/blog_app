@@ -76,6 +76,11 @@ In today's digital age, content creation has become more important than ever. Ho
 ---
 
 ## 🛠️ My Approach
+### Development Philosophy
+The Blog App was built with a focus on creating the best possible experience for both writers and readers. Every feature was carefully considered to ensure it adds value without adding complexity.
+
+### Architecture Pattern
+The application follows Clean Architecture principles with BLoC (Business Logic Component) pattern for state management, ensuring separation of concerns and testability.
 
 ---
 
