@@ -91,6 +91,14 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
     flutter: SDK ^3.0.0
     dart: SDK ^3.0.0
 
+2. State Management
+   ```bash
+   # BLoC Pattern
+   flutter_bloc: ^latest              # BLoC state management
+   equatable: ^latest                 # Value equality
+
+3. Backend & Database
+
 ---
 
 ## ⚙️ How It Works
