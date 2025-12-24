@@ -85,6 +85,11 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 ---
 
 ## 🔧 Tools and Libraries Used
+1. Core Technologies
+   ```bash
+   # Flutter & Dart
+    flutter: SDK ^3.0.0
+    dart: SDK ^3.0.0
 
 ---
 
