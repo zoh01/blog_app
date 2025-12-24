@@ -45,6 +45,13 @@ In today's digital age, content creation has become more important than ever. Ho
 - **📊 Analytics** - Track your article performance
 - **🎨 Customization** - Personalize your author profile
 
+**For Readers**
+- **📚 Clean Reading Experience** - Distraction-free article layout
+- **🔍 Smart Discovery** - Find content based on your interests
+- **💬 Engagement** - Comment, like, and share articles
+- **📱 Offline Reading** - Save articles for later
+- **🔔 Notifications** - Stay updated on your favorite authors
+
 ---
 
 ## ✨ Features
