@@ -183,3 +183,7 @@ GitHub: [https://github.com/zoh01](https://github.com/zoh01)
 
 Project Link: [https://github.com/zoh01/blog_app](https://github.com/zoh01/blog_app)
 
+---
+
+## 📄 License
+Distributed under the MIT License. See LICENSE file for more information.
