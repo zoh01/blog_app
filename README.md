@@ -172,4 +172,14 @@ Contributions make the open-source community an amazing place to learn, inspire,
 ## 👤 Author
 **Adebayo Wariz** 
 
+## 📧 Contact
+Whatsapp: +234 702 513 6608
+
+Email: adebayozoh@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/adebayo-wariz-a8ab9a310/
+
+GitHub: [https://github.com/zoh01](https://github.com/zoh01)
+
+Project Link: [https://github.com/zoh01/blog_app](https://github.com/zoh01/blog_app)
 
