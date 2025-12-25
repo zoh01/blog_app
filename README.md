@@ -166,3 +166,10 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 
 ## 🤝 Contributing
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+---
+
+## 👤 Author
+**Adebayo Wariz** 
+
+
