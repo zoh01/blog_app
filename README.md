@@ -133,7 +133,36 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
    lottie: ^latest                    # Lottie animations
    flutter_slidable: ^latest          # Swipeable widgets
 
-
 ---
 
 ## ⚙️ How It Works
+### Application Flow
+1. User Authentication Flow
+   ```bash
+   App Launch
+    ↓
+   Initialize Firebase
+       ↓
+   Check Authentication State
+       ↓
+   ├─→ Not Authenticated
+   │       ↓
+   │   Display Welcome Screen
+   │       ↓
+   │   ┌─────────────┬─────────────┐
+   │   ↓             ↓             ↓
+   │  Login      Register    Guest Mode
+   │   ↓             ↓             ↓
+   │   ↓             ↓             ↓
+   │   └─────────────┴─────────────┘
+   │                 ↓
+   └─→ Authenticated
+           ↓
+       Load User Profile
+           ↓
+       Navigate to Home Screen
+
+---
+
+## 🤝 Contributing
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
