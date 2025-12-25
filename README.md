@@ -133,6 +133,7 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
    lottie: ^latest                    # Lottie animations
    flutter_slidable: ^latest          # Swipeable widgets
 
+
 ---
 
 ## ⚙️ How It Works
