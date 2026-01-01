@@ -138,29 +138,29 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 ## ⚙️ How It Works
 ### Application Flow
 1. User Authentication Flow
-   ```bash
-   App Launch
-    ↓
-   Initialize Firebase
-       ↓
-   Check Authentication State
-       ↓
-   ├─→ Not Authenticated
-   │       ↓
-   │   Display Welcome Screen
-   │       ↓
-   │   ┌─────────────┬─────────────┐
-   │   ↓             ↓             ↓
-   │  Login      Register    Guest Mode
-   │   ↓             ↓             ↓
-   │   ↓             ↓             ↓
-   │   └─────────────┴─────────────┘
-   │                 ↓
-   └─→ Authenticated
-           ↓
-       Load User Profile
-           ↓
-       Navigate to Home Screen
+   
+         App Launch
+          ↓
+         Initialize Firebase
+             ↓
+         Check Authentication State
+             ↓
+         ├─→ Not Authenticated
+         │       ↓
+         │   Display Welcome Screen
+         │       ↓
+         │   ┌─────────────┬─────────────┐
+         │   ↓             ↓             ↓
+         │  Login      Register    Guest Mode
+         │   ↓             ↓             ↓
+         │   ↓             ↓             ↓
+         │   └─────────────┴─────────────┘
+         │                 ↓
+         └─→ Authenticated
+                 ↓
+             Load User Profile
+                 ↓
+             Navigate to Home Screen
 
 ---
 
