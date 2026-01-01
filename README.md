@@ -92,19 +92,19 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
    dart: SDK ^3.0.0
 
 2. State Management
-   ```bash
-   # BLoC Pattern
-   flutter_bloc: ^latest              # BLoC state management
-   equatable: ^latest                 # Value equality
+   
+         # BLoC Pattern
+         flutter_bloc: ^latest              # BLoC state management
+         equatable: ^latest                 # Value equality
 
 3. Backend & Database
-   ```bash
-   # Supabase
-   supabase_flutter: ^latest          # Supabase client for Flutter
-   postgrest: ^latest                 # PostgreSQL REST client
-   gotrue: ^latest                    # Supabase authentication
-   storage_client: ^latest            # Supabase storage client
-   realtime_client: ^latest           # Real-time subscriptions
+  
+         # Supabase
+         supabase_flutter: ^latest          # Supabase client for Flutter
+         postgrest: ^latest                 # PostgreSQL REST client
+         gotrue: ^latest                    # Supabase authentication
+         storage_client: ^latest            # Supabase storage client
+         realtime_client: ^latest           # Real-time subscriptions
 
 4. Rich Text Editing
 
