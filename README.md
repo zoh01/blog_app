@@ -86,18 +86,18 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 
 ## 🔧 Tools and Libraries Used
 1. Core Technologies
-   ```bash
-   # Flutter & Dart
-   flutter: SDK ^3.0.0
-   dart: SDK ^3.0.0
+   
+         # Flutter & Dart
+         flutter: SDK ^3.0.0
+         dart: SDK ^3.0.0
 
-2. State Management
+3. State Management
    
          # BLoC Pattern
          flutter_bloc: ^latest              # BLoC state management
          equatable: ^latest                 # Value equality
 
-3. Backend & Database
+4. Backend & Database
   
          # Supabase
          supabase_flutter: ^latest          # Supabase client for Flutter
@@ -106,7 +106,7 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
          storage_client: ^latest            # Supabase storage client
          realtime_client: ^latest           # Real-time subscriptions
 
-4. Rich Text Editing
+5. Rich Text Editing
 
          # Text Editor
          flutter_quill: ^latest             # Rich text editor
@@ -114,7 +114,7 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
          html: ^latest                      # HTML parsing
          flutter_html: ^latest              # HTML rendering
 
-5. Image Handling
+6. Image Handling
   
          # Image Processing
          image_picker: ^latest              # Pick images
@@ -123,15 +123,15 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
          image_cropper: ^latest             # Image cropping
          photo_view: ^latest                # Image viewer
 
-6. UI Components
-   ```bash
-   # UI & Design
-   google_fonts: ^latest              # Custom fonts
-   flutter_svg: ^latest               # SVG support
-   shimmer: ^latest                   # Loading animations
-   animations: ^latest                # Custom animations
-   lottie: ^latest                    # Lottie animations
-   flutter_slidable: ^latest          # Swipeable widgets
+7. UI Components
+  
+         # UI & Design
+         google_fonts: ^latest              # Custom fonts
+         flutter_svg: ^latest               # SVG support
+         shimmer: ^latest                   # Loading animations
+         animations: ^latest                # Custom animations
+         lottie: ^latest                    # Lottie animations
+         flutter_slidable: ^latest          # Swipeable widgets
 
 ---
 
