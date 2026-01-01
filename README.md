@@ -1,4 +1,4 @@
-# Blog App ✍️
+# ✍️ Blog App
 
 <div align="center">
 
@@ -107,21 +107,21 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
    realtime_client: ^latest           # Real-time subscriptions
 
 4. Rich Text Editing
-   ```bash
-   # Text Editor
-   flutter_quill: ^latest             # Rich text editor
-   markdown: ^latest                  # Markdown parsing
-   html: ^latest                      # HTML parsing
-   flutter_html: ^latest              # HTML rendering
+
+         # Text Editor
+         flutter_quill: ^latest             # Rich text editor
+         markdown: ^latest                  # Markdown parsing
+         html: ^latest                      # HTML parsing
+         flutter_html: ^latest              # HTML rendering
 
 5. Image Handling
-   ```bash
-   # Image Processing
-   image_picker: ^latest              # Pick images
-   cached_network_image: ^latest      # Image caching
-   flutter_image_compress: ^latest    # Image compression
-   image_cropper: ^latest             # Image cropping
-   photo_view: ^latest                # Image viewer
+  
+         # Image Processing
+         image_picker: ^latest              # Pick images
+         cached_network_image: ^latest      # Image caching
+         flutter_image_compress: ^latest    # Image compression
+         image_cropper: ^latest             # Image cropping
+         photo_view: ^latest                # Image viewer
 
 6. UI Components
    ```bash
