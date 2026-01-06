@@ -160,7 +160,10 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
              Load User Profile
                  ↓
              Navigate to Home Screen
+---
 
+ ## 📱 App & Device Preview
+ 
 ---
 
 ## 🤝 Contributing
