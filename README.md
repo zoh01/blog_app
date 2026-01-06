@@ -172,6 +172,10 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 ### AI Disease Predictions
 ![AI_Disease_Predictions](https://github.com/zoh01/cattle_health/blob/9372e26e2bf2a7e27c19f4da25e1b85a4604d60a/health2.jpeg)
 
+### ThingSpeak Cloud Dashboard
+![ThingSpeak_Cloud_Dashboard](https://github.com/zoh01/cattle_health/blob/8708ab3a05895a7cb60b6f5090f81031c5566f71/thingspeak.jpeg)
+
+
 
  
 ---
