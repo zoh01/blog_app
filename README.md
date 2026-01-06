@@ -169,6 +169,10 @@ The application follows Clean Architecture principles with BLoC (Business Logic 
 ### AI Disease Predictions
 ![AI_Disease_Predictions](https://github.com/zoh01/cattle_health/blob/9372e26e2bf2a7e27c19f4da25e1b85a4604d60a/health2.jpeg)
 
+### AI Disease Predictions
+![AI_Disease_Predictions](https://github.com/zoh01/cattle_health/blob/9372e26e2bf2a7e27c19f4da25e1b85a4604d60a/health2.jpeg)
+
+
  
 ---
 
